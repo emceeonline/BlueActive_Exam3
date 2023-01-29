@@ -3,8 +3,10 @@
     "",
     "\\public",
     "\\public\\assets",
-    "\\src"
+    "\\src",
+    "\\src\\Filters\\Sample",
+    "\\src\\Filters\\Sample\\Shaders"
   ],
-  "SelectedNode": "\\src\\index.ts",
+  "SelectedNode": "\\src\\Summary.ts",
   "PreviewInSolutionExplorer": false
 }
