@@ -114,6 +114,6 @@ export class Chips{
         //default chips
         this.selectedChipValue = this.allChips['Chip_'+this.allDenomination[0].toString()].value;
         this.allChips['Chip_'+this.allDenomination[0].toString()].icon.texture = this.allChips['Chip_'+this.allDenomination[0].toString()].texture_selected;
-        this.mainUpdate({type:'CHIP_SELECTED',value:this.selectedChipValue});
+        this.mainUpdate({type:'CHIP_SELECTED',value:this.selectedChipValue}); 
     } 
 }

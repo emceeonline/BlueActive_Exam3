@@ -13,7 +13,7 @@ export class Controls{
 
     deal_btn:ControlsBtnData;
     erase_btn:ControlsBtnData;
-    rebet_btn:ControlsBtnData;
+    rebet_btn:ControlsBtnData; 
 
     isSummary:boolean;
 

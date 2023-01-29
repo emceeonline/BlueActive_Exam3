@@ -463,7 +463,6 @@ var Chips = /** @class */ (function () {
             newChip.container.addChild(newIcon, newTxt);
         }
         //default chips
-        console.log(this.allChips, this.allDenomination[0].toString());
         this.selectedChipValue = this.allChips['Chip_' + this.allDenomination[0].toString()].value;
         this.allChips['Chip_' + this.allDenomination[0].toString()].icon.texture = this.allChips['Chip_' + this.allDenomination[0].toString()].texture_selected;
         this.mainUpdate({ type: 'CHIP_SELECTED', value: this.selectedChipValue });
@@ -566,7 +565,6 @@ var Controls = /** @class */ (function () {
         //this.update({type:'SHOW_SUMMARY'});
     }
     Controls.prototype.update = function (_params) {
-        console.log('CONTROLS UPDATE', _params);
         switch (_params.type) {
             case 'HIDE_CONTROLS':
                 this.app.stage.removeChild(this.container);
